@@ -3,4 +3,7 @@ project(GraphMatrix C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(GraphMatrix main.c graphs/matrix/matrix.h graphs/matrix/matrix.c graphs/matrixgraph.h graphs/matrixgraph.c graphs/lists/lists.h graphs/listsGraph.h graphs/listsGraph.c graphs/lists/lists.c graphs/operations/matrix/remvrtx.c graphs/operations/matrix/remvrtx.h graphs/dfs.h graphs/dfs.c)
+#output
+SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY "D:/XAMPP/cgi-bin/scripts")
+
+add_executable(GraphMatrix_C main.c modules/tools.c modules/tools.h modules/coloring.c modules/coloring.h modules/dfs.c modules/dfs.h modules/lists.c modules/lists.h modules/listsGraph.c modules/listsGraph.h modules/matrix.c modules/matrix.h modules/matrixgraph.c modules/matrixgraph.h modules/bfs.c modules/bfs.h tests.c tests.h)

@@ -115,179 +115,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named GraphMatrix
+# Target rules for targets named GraphMatrix_C
 
 # Build rule for target.
-GraphMatrix: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) GraphMatrix
-.PHONY : GraphMatrix
+GraphMatrix_C: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) GraphMatrix_C
+.PHONY : GraphMatrix_C
 
 # fast build rule for target.
-GraphMatrix\fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\build
-.PHONY : GraphMatrix\fast
-
-graphs\dfs.obj: graphs\dfs.c.obj
-
-.PHONY : graphs\dfs.obj
-
-# target to build an object file
-graphs\dfs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\graphs\dfs.c.obj
-.PHONY : graphs\dfs.c.obj
-
-graphs\dfs.i: graphs\dfs.c.i
-
-.PHONY : graphs\dfs.i
-
-# target to preprocess a source file
-graphs\dfs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\graphs\dfs.c.i
-.PHONY : graphs\dfs.c.i
-
-graphs\dfs.s: graphs\dfs.c.s
-
-.PHONY : graphs\dfs.s
-
-# target to generate assembly for a file
-graphs\dfs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\graphs\dfs.c.s
-.PHONY : graphs\dfs.c.s
-
-graphs\lists\lists.obj: graphs\lists\lists.c.obj
-
-.PHONY : graphs\lists\lists.obj
-
-# target to build an object file
-graphs\lists\lists.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\graphs\lists\lists.c.obj
-.PHONY : graphs\lists\lists.c.obj
-
-graphs\lists\lists.i: graphs\lists\lists.c.i
-
-.PHONY : graphs\lists\lists.i
-
-# target to preprocess a source file
-graphs\lists\lists.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\graphs\lists\lists.c.i
-.PHONY : graphs\lists\lists.c.i
-
-graphs\lists\lists.s: graphs\lists\lists.c.s
-
-.PHONY : graphs\lists\lists.s
-
-# target to generate assembly for a file
-graphs\lists\lists.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\graphs\lists\lists.c.s
-.PHONY : graphs\lists\lists.c.s
-
-graphs\listsGraph.obj: graphs\listsGraph.c.obj
-
-.PHONY : graphs\listsGraph.obj
-
-# target to build an object file
-graphs\listsGraph.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\graphs\listsGraph.c.obj
-.PHONY : graphs\listsGraph.c.obj
-
-graphs\listsGraph.i: graphs\listsGraph.c.i
-
-.PHONY : graphs\listsGraph.i
-
-# target to preprocess a source file
-graphs\listsGraph.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\graphs\listsGraph.c.i
-.PHONY : graphs\listsGraph.c.i
-
-graphs\listsGraph.s: graphs\listsGraph.c.s
-
-.PHONY : graphs\listsGraph.s
-
-# target to generate assembly for a file
-graphs\listsGraph.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\graphs\listsGraph.c.s
-.PHONY : graphs\listsGraph.c.s
-
-graphs\matrix\matrix.obj: graphs\matrix\matrix.c.obj
-
-.PHONY : graphs\matrix\matrix.obj
-
-# target to build an object file
-graphs\matrix\matrix.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\graphs\matrix\matrix.c.obj
-.PHONY : graphs\matrix\matrix.c.obj
-
-graphs\matrix\matrix.i: graphs\matrix\matrix.c.i
-
-.PHONY : graphs\matrix\matrix.i
-
-# target to preprocess a source file
-graphs\matrix\matrix.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\graphs\matrix\matrix.c.i
-.PHONY : graphs\matrix\matrix.c.i
-
-graphs\matrix\matrix.s: graphs\matrix\matrix.c.s
-
-.PHONY : graphs\matrix\matrix.s
-
-# target to generate assembly for a file
-graphs\matrix\matrix.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\graphs\matrix\matrix.c.s
-.PHONY : graphs\matrix\matrix.c.s
-
-graphs\matrixgraph.obj: graphs\matrixgraph.c.obj
-
-.PHONY : graphs\matrixgraph.obj
-
-# target to build an object file
-graphs\matrixgraph.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\graphs\matrixgraph.c.obj
-.PHONY : graphs\matrixgraph.c.obj
-
-graphs\matrixgraph.i: graphs\matrixgraph.c.i
-
-.PHONY : graphs\matrixgraph.i
-
-# target to preprocess a source file
-graphs\matrixgraph.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\graphs\matrixgraph.c.i
-.PHONY : graphs\matrixgraph.c.i
-
-graphs\matrixgraph.s: graphs\matrixgraph.c.s
-
-.PHONY : graphs\matrixgraph.s
-
-# target to generate assembly for a file
-graphs\matrixgraph.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\graphs\matrixgraph.c.s
-.PHONY : graphs\matrixgraph.c.s
-
-graphs\operations\matrix\remvrtx.obj: graphs\operations\matrix\remvrtx.c.obj
-
-.PHONY : graphs\operations\matrix\remvrtx.obj
-
-# target to build an object file
-graphs\operations\matrix\remvrtx.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\graphs\operations\matrix\remvrtx.c.obj
-.PHONY : graphs\operations\matrix\remvrtx.c.obj
-
-graphs\operations\matrix\remvrtx.i: graphs\operations\matrix\remvrtx.c.i
-
-.PHONY : graphs\operations\matrix\remvrtx.i
-
-# target to preprocess a source file
-graphs\operations\matrix\remvrtx.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\graphs\operations\matrix\remvrtx.c.i
-.PHONY : graphs\operations\matrix\remvrtx.c.i
-
-graphs\operations\matrix\remvrtx.s: graphs\operations\matrix\remvrtx.c.s
-
-.PHONY : graphs\operations\matrix\remvrtx.s
-
-# target to generate assembly for a file
-graphs\operations\matrix\remvrtx.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\graphs\operations\matrix\remvrtx.c.s
-.PHONY : graphs\operations\matrix\remvrtx.c.s
+GraphMatrix_C\fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\build
+.PHONY : GraphMatrix_C\fast
 
 main.obj: main.c.obj
 
@@ -295,7 +133,7 @@ main.obj: main.c.obj
 
 # target to build an object file
 main.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\main.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\main.c.obj
 .PHONY : main.c.obj
 
 main.i: main.c.i
@@ -304,7 +142,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\main.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -313,8 +151,251 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\main.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\main.c.s
 .PHONY : main.c.s
+
+modules\bfs.obj: modules\bfs.c.obj
+
+.PHONY : modules\bfs.obj
+
+# target to build an object file
+modules\bfs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\bfs.c.obj
+.PHONY : modules\bfs.c.obj
+
+modules\bfs.i: modules\bfs.c.i
+
+.PHONY : modules\bfs.i
+
+# target to preprocess a source file
+modules\bfs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\bfs.c.i
+.PHONY : modules\bfs.c.i
+
+modules\bfs.s: modules\bfs.c.s
+
+.PHONY : modules\bfs.s
+
+# target to generate assembly for a file
+modules\bfs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\bfs.c.s
+.PHONY : modules\bfs.c.s
+
+modules\coloring.obj: modules\coloring.c.obj
+
+.PHONY : modules\coloring.obj
+
+# target to build an object file
+modules\coloring.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\coloring.c.obj
+.PHONY : modules\coloring.c.obj
+
+modules\coloring.i: modules\coloring.c.i
+
+.PHONY : modules\coloring.i
+
+# target to preprocess a source file
+modules\coloring.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\coloring.c.i
+.PHONY : modules\coloring.c.i
+
+modules\coloring.s: modules\coloring.c.s
+
+.PHONY : modules\coloring.s
+
+# target to generate assembly for a file
+modules\coloring.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\coloring.c.s
+.PHONY : modules\coloring.c.s
+
+modules\dfs.obj: modules\dfs.c.obj
+
+.PHONY : modules\dfs.obj
+
+# target to build an object file
+modules\dfs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\dfs.c.obj
+.PHONY : modules\dfs.c.obj
+
+modules\dfs.i: modules\dfs.c.i
+
+.PHONY : modules\dfs.i
+
+# target to preprocess a source file
+modules\dfs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\dfs.c.i
+.PHONY : modules\dfs.c.i
+
+modules\dfs.s: modules\dfs.c.s
+
+.PHONY : modules\dfs.s
+
+# target to generate assembly for a file
+modules\dfs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\dfs.c.s
+.PHONY : modules\dfs.c.s
+
+modules\lists.obj: modules\lists.c.obj
+
+.PHONY : modules\lists.obj
+
+# target to build an object file
+modules\lists.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\lists.c.obj
+.PHONY : modules\lists.c.obj
+
+modules\lists.i: modules\lists.c.i
+
+.PHONY : modules\lists.i
+
+# target to preprocess a source file
+modules\lists.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\lists.c.i
+.PHONY : modules\lists.c.i
+
+modules\lists.s: modules\lists.c.s
+
+.PHONY : modules\lists.s
+
+# target to generate assembly for a file
+modules\lists.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\lists.c.s
+.PHONY : modules\lists.c.s
+
+modules\listsGraph.obj: modules\listsGraph.c.obj
+
+.PHONY : modules\listsGraph.obj
+
+# target to build an object file
+modules\listsGraph.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\listsGraph.c.obj
+.PHONY : modules\listsGraph.c.obj
+
+modules\listsGraph.i: modules\listsGraph.c.i
+
+.PHONY : modules\listsGraph.i
+
+# target to preprocess a source file
+modules\listsGraph.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\listsGraph.c.i
+.PHONY : modules\listsGraph.c.i
+
+modules\listsGraph.s: modules\listsGraph.c.s
+
+.PHONY : modules\listsGraph.s
+
+# target to generate assembly for a file
+modules\listsGraph.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\listsGraph.c.s
+.PHONY : modules\listsGraph.c.s
+
+modules\matrix.obj: modules\matrix.c.obj
+
+.PHONY : modules\matrix.obj
+
+# target to build an object file
+modules\matrix.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\matrix.c.obj
+.PHONY : modules\matrix.c.obj
+
+modules\matrix.i: modules\matrix.c.i
+
+.PHONY : modules\matrix.i
+
+# target to preprocess a source file
+modules\matrix.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\matrix.c.i
+.PHONY : modules\matrix.c.i
+
+modules\matrix.s: modules\matrix.c.s
+
+.PHONY : modules\matrix.s
+
+# target to generate assembly for a file
+modules\matrix.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\matrix.c.s
+.PHONY : modules\matrix.c.s
+
+modules\matrixgraph.obj: modules\matrixgraph.c.obj
+
+.PHONY : modules\matrixgraph.obj
+
+# target to build an object file
+modules\matrixgraph.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\matrixgraph.c.obj
+.PHONY : modules\matrixgraph.c.obj
+
+modules\matrixgraph.i: modules\matrixgraph.c.i
+
+.PHONY : modules\matrixgraph.i
+
+# target to preprocess a source file
+modules\matrixgraph.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\matrixgraph.c.i
+.PHONY : modules\matrixgraph.c.i
+
+modules\matrixgraph.s: modules\matrixgraph.c.s
+
+.PHONY : modules\matrixgraph.s
+
+# target to generate assembly for a file
+modules\matrixgraph.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\matrixgraph.c.s
+.PHONY : modules\matrixgraph.c.s
+
+modules\tools.obj: modules\tools.c.obj
+
+.PHONY : modules\tools.obj
+
+# target to build an object file
+modules\tools.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\tools.c.obj
+.PHONY : modules\tools.c.obj
+
+modules\tools.i: modules\tools.c.i
+
+.PHONY : modules\tools.i
+
+# target to preprocess a source file
+modules\tools.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\tools.c.i
+.PHONY : modules\tools.c.i
+
+modules\tools.s: modules\tools.c.s
+
+.PHONY : modules\tools.s
+
+# target to generate assembly for a file
+modules\tools.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\tools.c.s
+.PHONY : modules\tools.c.s
+
+tests.obj: tests.c.obj
+
+.PHONY : tests.obj
+
+# target to build an object file
+tests.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\tests.c.obj
+.PHONY : tests.c.obj
+
+tests.i: tests.c.i
+
+.PHONY : tests.i
+
+# target to preprocess a source file
+tests.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\tests.c.i
+.PHONY : tests.c.i
+
+tests.s: tests.c.s
+
+.PHONY : tests.s
+
+# target to generate assembly for a file
+tests.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\tests.c.s
+.PHONY : tests.c.s
 
 # Help Target
 help:
@@ -324,28 +405,37 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... GraphMatrix
-	@echo ... graphs/dfs.obj
-	@echo ... graphs/dfs.i
-	@echo ... graphs/dfs.s
-	@echo ... graphs/lists/lists.obj
-	@echo ... graphs/lists/lists.i
-	@echo ... graphs/lists/lists.s
-	@echo ... graphs/listsGraph.obj
-	@echo ... graphs/listsGraph.i
-	@echo ... graphs/listsGraph.s
-	@echo ... graphs/matrix/matrix.obj
-	@echo ... graphs/matrix/matrix.i
-	@echo ... graphs/matrix/matrix.s
-	@echo ... graphs/matrixgraph.obj
-	@echo ... graphs/matrixgraph.i
-	@echo ... graphs/matrixgraph.s
-	@echo ... graphs/operations/matrix/remvrtx.obj
-	@echo ... graphs/operations/matrix/remvrtx.i
-	@echo ... graphs/operations/matrix/remvrtx.s
+	@echo ... GraphMatrix_C
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... modules/bfs.obj
+	@echo ... modules/bfs.i
+	@echo ... modules/bfs.s
+	@echo ... modules/coloring.obj
+	@echo ... modules/coloring.i
+	@echo ... modules/coloring.s
+	@echo ... modules/dfs.obj
+	@echo ... modules/dfs.i
+	@echo ... modules/dfs.s
+	@echo ... modules/lists.obj
+	@echo ... modules/lists.i
+	@echo ... modules/lists.s
+	@echo ... modules/listsGraph.obj
+	@echo ... modules/listsGraph.i
+	@echo ... modules/listsGraph.s
+	@echo ... modules/matrix.obj
+	@echo ... modules/matrix.i
+	@echo ... modules/matrix.s
+	@echo ... modules/matrixgraph.obj
+	@echo ... modules/matrixgraph.i
+	@echo ... modules/matrixgraph.s
+	@echo ... modules/tools.obj
+	@echo ... modules/tools.i
+	@echo ... modules/tools.s
+	@echo ... tests.obj
+	@echo ... tests.i
+	@echo ... tests.s
 .PHONY : help
 
 

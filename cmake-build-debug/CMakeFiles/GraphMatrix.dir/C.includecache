@@ -6,33 +6,9 @@
 
 #IncludeRegexTransform: 
 
-D:/CPrctc/C Graphs/graphs/dfs.h
-listsGraph.h
-D:/CPrctc/C Graphs/graphs/listsGraph.h
-stdbool.h
-D:/CPrctc/C Graphs/graphs/stdbool.h
-
-D:/CPrctc/C Graphs/graphs/lists/lists.h
-stdio.h
--
-stdlib.h
--
-stdint.h
--
-string.h
--
-
-D:/CPrctc/C Graphs/graphs/listsGraph.h
-lists/lists.h
-D:/CPrctc/C Graphs/graphs/lists/lists.h
-matrixgraph.h
-D:/CPrctc/C Graphs/graphs/matrixgraph.h
-
 D:/CPrctc/C Graphs/graphs/matrix/matrix.h
 stdlib.h
 D:/CPrctc/C Graphs/graphs/matrix/stdlib.h
-../operations/matrix/remvrtx.h
-D:/CPrctc/C Graphs/graphs/operations/matrix/remvrtx.h
 
 D:/CPrctc/C Graphs/graphs/matrixgraph.h
 stdio.h
@@ -44,11 +20,9 @@ string.h
 matrix/matrix.h
 D:/CPrctc/C Graphs/graphs/matrix/matrix.h
 
-D:/CPrctc/C Graphs/graphs/operations/matrix/remvrtx.h
-
 D:/CPrctc/C Graphs/main.c
 time.h
 D:/CPrctc/C Graphs/time.h
-graphs/dfs.h
-D:/CPrctc/C Graphs/graphs/dfs.h
+graphs/matrixgraph.h
+D:/CPrctc/C Graphs/graphs/matrixgraph.h
 

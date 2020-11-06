@@ -17,9 +17,9 @@
 					<DistClean command="nmake /NOLOGO /f &quot;D:\CPrctc\C Graphs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="GraphMatrix">
-				<Option output="D:/CPrctc/C Graphs/cmake-build-debug/GraphMatrix.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CPrctc/C Graphs/cmake-build-debug"/>
+			<Target title="GraphMatrix_C">
+				<Option output="D:/XAMPP/cgi-bin/scripts/GraphMatrix_C.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/XAMPP/cgi-bin/scripts"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -34,15 +34,15 @@
 					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\CPrctc\C Graphs\cmake-build-debug\Makefile&quot; VERBOSE=1 GraphMatrix"/>
+					<Build command="nmake /NOLOGO /f &quot;D:\CPrctc\C Graphs\cmake-build-debug\Makefile&quot; VERBOSE=1 GraphMatrix_C"/>
 					<CompileFile command="nmake /NOLOGO /f &quot;D:\CPrctc\C Graphs\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="nmake /NOLOGO /f &quot;D:\CPrctc\C Graphs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 					<DistClean command="nmake /NOLOGO /f &quot;D:\CPrctc\C Graphs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="GraphMatrix/fast">
-				<Option output="D:/CPrctc/C Graphs/cmake-build-debug/GraphMatrix.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/CPrctc/C Graphs/cmake-build-debug"/>
+			<Target title="GraphMatrix_C/fast">
+				<Option output="D:/XAMPP/cgi-bin/scripts/GraphMatrix_C.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/XAMPP/cgi-bin/scripts"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -57,7 +57,7 @@
 					<Add directory="D:\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;D:\CPrctc\C Graphs\cmake-build-debug\Makefile&quot; VERBOSE=1 GraphMatrix/fast"/>
+					<Build command="nmake /NOLOGO /f &quot;D:\CPrctc\C Graphs\cmake-build-debug\Makefile&quot; VERBOSE=1 GraphMatrix_C/fast"/>
 					<CompileFile command="nmake /NOLOGO /f &quot;D:\CPrctc\C Graphs\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="nmake /NOLOGO /f &quot;D:\CPrctc\C Graphs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 					<DistClean command="nmake /NOLOGO /f &quot;D:\CPrctc\C Graphs\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
@@ -84,44 +84,62 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/CPrctc/C Graphs/graphs/dfs.c">
-			<Option target="GraphMatrix"/>
-		</Unit>
-		<Unit filename="D:/CPrctc/C Graphs/graphs/dfs.h">
-			<Option target="GraphMatrix"/>
-		</Unit>
-		<Unit filename="D:/CPrctc/C Graphs/graphs/lists/lists.c">
-			<Option target="GraphMatrix"/>
-		</Unit>
-		<Unit filename="D:/CPrctc/C Graphs/graphs/lists/lists.h">
-			<Option target="GraphMatrix"/>
-		</Unit>
-		<Unit filename="D:/CPrctc/C Graphs/graphs/listsGraph.c">
-			<Option target="GraphMatrix"/>
-		</Unit>
-		<Unit filename="D:/CPrctc/C Graphs/graphs/listsGraph.h">
-			<Option target="GraphMatrix"/>
-		</Unit>
-		<Unit filename="D:/CPrctc/C Graphs/graphs/matrix/matrix.c">
-			<Option target="GraphMatrix"/>
-		</Unit>
-		<Unit filename="D:/CPrctc/C Graphs/graphs/matrix/matrix.h">
-			<Option target="GraphMatrix"/>
-		</Unit>
-		<Unit filename="D:/CPrctc/C Graphs/graphs/matrixgraph.c">
-			<Option target="GraphMatrix"/>
-		</Unit>
-		<Unit filename="D:/CPrctc/C Graphs/graphs/matrixgraph.h">
-			<Option target="GraphMatrix"/>
-		</Unit>
-		<Unit filename="D:/CPrctc/C Graphs/graphs/operations/matrix/remvrtx.c">
-			<Option target="GraphMatrix"/>
-		</Unit>
-		<Unit filename="D:/CPrctc/C Graphs/graphs/operations/matrix/remvrtx.h">
-			<Option target="GraphMatrix"/>
-		</Unit>
 		<Unit filename="D:/CPrctc/C Graphs/main.c">
-			<Option target="GraphMatrix"/>
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/bfs.c">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/bfs.h">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/coloring.c">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/coloring.h">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/dfs.c">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/dfs.h">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/lists.c">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/lists.h">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/listsGraph.c">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/listsGraph.h">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/matrix.c">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/matrix.h">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/matrixgraph.c">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/matrixgraph.h">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/tools.c">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/tools.h">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/tests.c">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/tests.h">
+			<Option target="GraphMatrix_C"/>
 		</Unit>
 		<Unit filename="D:/CPrctc/C Graphs/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

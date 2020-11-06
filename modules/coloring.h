@@ -1,0 +1,8 @@
+#ifndef GRAPHMATRIX_COLORING_H
+#define GRAPHMATRIX_COLORING_H
+
+#endif //GRAPHMATRIX_COLORING_H
+
+#ifndef GRAPHMATRIX_LISTGRAPH_H
+#include "listsGraph.h"
+#endif

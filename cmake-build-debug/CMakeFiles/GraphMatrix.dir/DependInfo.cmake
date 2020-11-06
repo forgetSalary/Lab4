@@ -4,12 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/CPrctc/C Graphs/graphs/dfs.c" "D:/CPrctc/C Graphs/cmake-build-debug/CMakeFiles/GraphMatrix.dir/graphs/dfs.c.obj"
-  "D:/CPrctc/C Graphs/graphs/lists/lists.c" "D:/CPrctc/C Graphs/cmake-build-debug/CMakeFiles/GraphMatrix.dir/graphs/lists/lists.c.obj"
-  "D:/CPrctc/C Graphs/graphs/listsGraph.c" "D:/CPrctc/C Graphs/cmake-build-debug/CMakeFiles/GraphMatrix.dir/graphs/listsGraph.c.obj"
-  "D:/CPrctc/C Graphs/graphs/matrix/matrix.c" "D:/CPrctc/C Graphs/cmake-build-debug/CMakeFiles/GraphMatrix.dir/graphs/matrix/matrix.c.obj"
+  "D:/CPrctc/C Graphs/graphs/matrix.c" "D:/CPrctc/C Graphs/cmake-build-debug/CMakeFiles/GraphMatrix.dir/graphs/matrix.c.obj"
   "D:/CPrctc/C Graphs/graphs/matrixgraph.c" "D:/CPrctc/C Graphs/cmake-build-debug/CMakeFiles/GraphMatrix.dir/graphs/matrixgraph.c.obj"
-  "D:/CPrctc/C Graphs/graphs/operations/matrix/remvrtx.c" "D:/CPrctc/C Graphs/cmake-build-debug/CMakeFiles/GraphMatrix.dir/graphs/operations/matrix/remvrtx.c.obj"
+  "D:/CPrctc/C Graphs/graphs/tools.c" "D:/CPrctc/C Graphs/cmake-build-debug/CMakeFiles/GraphMatrix.dir/graphs/tools.c.obj"
   "D:/CPrctc/C Graphs/main.c" "D:/CPrctc/C Graphs/cmake-build-debug/CMakeFiles/GraphMatrix.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "MSVC")

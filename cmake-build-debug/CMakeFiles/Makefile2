@@ -57,7 +57,7 @@ CMAKE_BINARY_DIR = "D:\CPrctc\C Graphs\cmake-build-debug"
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles\GraphMatrix.dir\all
+all: CMakeFiles\GraphMatrix_C.dir\all
 
 .PHONY : all
 
@@ -67,36 +67,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles\GraphMatrix.dir\clean
+clean: CMakeFiles\GraphMatrix_C.dir\clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/GraphMatrix.dir
+# Target rules for target CMakeFiles/GraphMatrix_C.dir
 
 # All Build rule for target.
-CMakeFiles\GraphMatrix.dir\all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\CPrctc\C Graphs\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8 "Built target GraphMatrix"
-.PHONY : CMakeFiles\GraphMatrix.dir\all
+CMakeFiles\GraphMatrix_C.dir\all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\CPrctc\C Graphs\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target GraphMatrix_C"
+.PHONY : CMakeFiles\GraphMatrix_C.dir\all
 
 # Build rule for subdir invocation for target.
-CMakeFiles\GraphMatrix.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CPrctc\C Graphs\cmake-build-debug\CMakeFiles" 8
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\all
+CMakeFiles\GraphMatrix_C.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CPrctc\C Graphs\cmake-build-debug\CMakeFiles" 11
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start "D:\CPrctc\C Graphs\cmake-build-debug\CMakeFiles" 0
-.PHONY : CMakeFiles\GraphMatrix.dir\rule
+.PHONY : CMakeFiles\GraphMatrix_C.dir\rule
 
 # Convenience name for target.
-GraphMatrix: CMakeFiles\GraphMatrix.dir\rule
+GraphMatrix_C: CMakeFiles\GraphMatrix_C.dir\rule
 
-.PHONY : GraphMatrix
+.PHONY : GraphMatrix_C
 
 # clean rule for target.
-CMakeFiles\GraphMatrix.dir\clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix.dir\clean
-.PHONY : CMakeFiles\GraphMatrix.dir\clean
+CMakeFiles\GraphMatrix_C.dir\clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\clean
+.PHONY : CMakeFiles\GraphMatrix_C.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

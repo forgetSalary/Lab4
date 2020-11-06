@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/CPrctc/C Graphs/graphs/dfs.c
+dfs.h
+D:/CPrctc/C Graphs/graphs/dfs.h
+
+D:/CPrctc/C Graphs/graphs/dfs.h
+listsGraph.h
+D:/CPrctc/C Graphs/graphs/listsGraph.h
+stdbool.h
+D:/CPrctc/C Graphs/graphs/stdbool.h
+
+D:/CPrctc/C Graphs/graphs/lists.h
+stdio.h
+-
+string.h
+-
+tools.h
+D:/CPrctc/C Graphs/graphs/tools.h
+
+D:/CPrctc/C Graphs/graphs/listsGraph.h
+lists.h
+D:/CPrctc/C Graphs/graphs/lists.h
+matrixgraph.h
+D:/CPrctc/C Graphs/graphs/matrixgraph.h
+
+D:/CPrctc/C Graphs/graphs/matrix.h
+tools.h
+D:/CPrctc/C Graphs/graphs/tools.h
+
+D:/CPrctc/C Graphs/graphs/matrixgraph.h
+stdio.h
+-
+string.h
+-
+matrix.h
+D:/CPrctc/C Graphs/graphs/matrix.h
+
+D:/CPrctc/C Graphs/graphs/tools.h
+stdlib.h
+D:/CPrctc/C Graphs/graphs/stdlib.h
+stdint.h
+D:/CPrctc/C Graphs/graphs/stdint.h
+
