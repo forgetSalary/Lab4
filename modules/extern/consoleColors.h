@@ -1,0 +1,8 @@
+//
+// Created by lants on 10.11.2020.
+//
+
+#ifndef GRAPHMATRIX_CONSOLECOLORS_H
+#define GRAPHMATRIX_CONSOLECOLORS_H
+
+#endif //GRAPHMATRIX_CONSOLECOLORS_H
