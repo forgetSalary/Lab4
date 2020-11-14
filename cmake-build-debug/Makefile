@@ -235,6 +235,141 @@ modules\dfs.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\dfs.c.s
 .PHONY : modules\dfs.c.s
 
+modules\extern\al_string.obj: modules\extern\al_string.c.obj
+
+.PHONY : modules\extern\al_string.obj
+
+# target to build an object file
+modules\extern\al_string.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\extern\al_string.c.obj
+.PHONY : modules\extern\al_string.c.obj
+
+modules\extern\al_string.i: modules\extern\al_string.c.i
+
+.PHONY : modules\extern\al_string.i
+
+# target to preprocess a source file
+modules\extern\al_string.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\extern\al_string.c.i
+.PHONY : modules\extern\al_string.c.i
+
+modules\extern\al_string.s: modules\extern\al_string.c.s
+
+.PHONY : modules\extern\al_string.s
+
+# target to generate assembly for a file
+modules\extern\al_string.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\extern\al_string.c.s
+.PHONY : modules\extern\al_string.c.s
+
+modules\extern\array.obj: modules\extern\array.c.obj
+
+.PHONY : modules\extern\array.obj
+
+# target to build an object file
+modules\extern\array.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\extern\array.c.obj
+.PHONY : modules\extern\array.c.obj
+
+modules\extern\array.i: modules\extern\array.c.i
+
+.PHONY : modules\extern\array.i
+
+# target to preprocess a source file
+modules\extern\array.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\extern\array.c.i
+.PHONY : modules\extern\array.c.i
+
+modules\extern\array.s: modules\extern\array.c.s
+
+.PHONY : modules\extern\array.s
+
+# target to generate assembly for a file
+modules\extern\array.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\extern\array.c.s
+.PHONY : modules\extern\array.c.s
+
+modules\extern\consoleColors.obj: modules\extern\consoleColors.c.obj
+
+.PHONY : modules\extern\consoleColors.obj
+
+# target to build an object file
+modules\extern\consoleColors.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\extern\consoleColors.c.obj
+.PHONY : modules\extern\consoleColors.c.obj
+
+modules\extern\consoleColors.i: modules\extern\consoleColors.c.i
+
+.PHONY : modules\extern\consoleColors.i
+
+# target to preprocess a source file
+modules\extern\consoleColors.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\extern\consoleColors.c.i
+.PHONY : modules\extern\consoleColors.c.i
+
+modules\extern\consoleColors.s: modules\extern\consoleColors.c.s
+
+.PHONY : modules\extern\consoleColors.s
+
+# target to generate assembly for a file
+modules\extern\consoleColors.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\extern\consoleColors.c.s
+.PHONY : modules\extern\consoleColors.c.s
+
+modules\extern\limitedQueue.obj: modules\extern\limitedQueue.c.obj
+
+.PHONY : modules\extern\limitedQueue.obj
+
+# target to build an object file
+modules\extern\limitedQueue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\extern\limitedQueue.c.obj
+.PHONY : modules\extern\limitedQueue.c.obj
+
+modules\extern\limitedQueue.i: modules\extern\limitedQueue.c.i
+
+.PHONY : modules\extern\limitedQueue.i
+
+# target to preprocess a source file
+modules\extern\limitedQueue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\extern\limitedQueue.c.i
+.PHONY : modules\extern\limitedQueue.c.i
+
+modules\extern\limitedQueue.s: modules\extern\limitedQueue.c.s
+
+.PHONY : modules\extern\limitedQueue.s
+
+# target to generate assembly for a file
+modules\extern\limitedQueue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\extern\limitedQueue.c.s
+.PHONY : modules\extern\limitedQueue.c.s
+
+modules\extern\tools.obj: modules\extern\tools.c.obj
+
+.PHONY : modules\extern\tools.obj
+
+# target to build an object file
+modules\extern\tools.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\extern\tools.c.obj
+.PHONY : modules\extern\tools.c.obj
+
+modules\extern\tools.i: modules\extern\tools.c.i
+
+.PHONY : modules\extern\tools.i
+
+# target to preprocess a source file
+modules\extern\tools.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\extern\tools.c.i
+.PHONY : modules\extern\tools.c.i
+
+modules\extern\tools.s: modules\extern\tools.c.s
+
+.PHONY : modules\extern\tools.s
+
+# target to generate assembly for a file
+modules\extern\tools.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\extern\tools.c.s
+.PHONY : modules\extern\tools.c.s
+
 modules\lists.obj: modules\lists.c.obj
 
 .PHONY : modules\lists.obj
@@ -343,32 +478,32 @@ modules\matrixgraph.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\matrixgraph.c.s
 .PHONY : modules\matrixgraph.c.s
 
-modules\tools.obj: modules\tools.c.obj
+modules\vertex.obj: modules\vertex.c.obj
 
-.PHONY : modules\tools.obj
+.PHONY : modules\vertex.obj
 
 # target to build an object file
-modules\tools.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\tools.c.obj
-.PHONY : modules\tools.c.obj
+modules\vertex.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\vertex.c.obj
+.PHONY : modules\vertex.c.obj
 
-modules\tools.i: modules\tools.c.i
+modules\vertex.i: modules\vertex.c.i
 
-.PHONY : modules\tools.i
+.PHONY : modules\vertex.i
 
 # target to preprocess a source file
-modules\tools.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\tools.c.i
-.PHONY : modules\tools.c.i
+modules\vertex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\vertex.c.i
+.PHONY : modules\vertex.c.i
 
-modules\tools.s: modules\tools.c.s
+modules\vertex.s: modules\vertex.c.s
 
-.PHONY : modules\tools.s
+.PHONY : modules\vertex.s
 
 # target to generate assembly for a file
-modules\tools.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\tools.c.s
-.PHONY : modules\tools.c.s
+modules\vertex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\GraphMatrix_C.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\GraphMatrix_C.dir\modules\vertex.c.s
+.PHONY : modules\vertex.c.s
 
 tests.obj: tests.c.obj
 
@@ -418,6 +553,21 @@ help:
 	@echo ... modules/dfs.obj
 	@echo ... modules/dfs.i
 	@echo ... modules/dfs.s
+	@echo ... modules/extern/al_string.obj
+	@echo ... modules/extern/al_string.i
+	@echo ... modules/extern/al_string.s
+	@echo ... modules/extern/array.obj
+	@echo ... modules/extern/array.i
+	@echo ... modules/extern/array.s
+	@echo ... modules/extern/consoleColors.obj
+	@echo ... modules/extern/consoleColors.i
+	@echo ... modules/extern/consoleColors.s
+	@echo ... modules/extern/limitedQueue.obj
+	@echo ... modules/extern/limitedQueue.i
+	@echo ... modules/extern/limitedQueue.s
+	@echo ... modules/extern/tools.obj
+	@echo ... modules/extern/tools.i
+	@echo ... modules/extern/tools.s
 	@echo ... modules/lists.obj
 	@echo ... modules/lists.i
 	@echo ... modules/lists.s
@@ -430,9 +580,9 @@ help:
 	@echo ... modules/matrixgraph.obj
 	@echo ... modules/matrixgraph.i
 	@echo ... modules/matrixgraph.s
-	@echo ... modules/tools.obj
-	@echo ... modules/tools.i
-	@echo ... modules/tools.s
+	@echo ... modules/vertex.obj
+	@echo ... modules/vertex.i
+	@echo ... modules/vertex.s
 	@echo ... tests.obj
 	@echo ... tests.i
 	@echo ... tests.s

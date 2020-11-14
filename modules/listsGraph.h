@@ -3,13 +3,20 @@
 
 #endif //GRAPHMATRIX_LISTSGRAPH_H
 
+#ifndef GRAPHMATRIX_LISTS_H
 #include "lists.h"
+#endif
+
+#ifndef GRAPHMATRIX_MATRIX_H
 #include "matrixgraph.h"
+#endif
+
+#define list(graph,index)               graph->lists[index]
+#define vertex_name_head(graph,index)   (_VALUE_OF(vertex,list_graph->lists[0]->head)).name
 
 typedef struct list_graph{
     list_t** lists;
-    int* vertexes;
-    rgb_t* colors;
+    vertex* vertexes;
 
     int size;
 }list_graph_t;

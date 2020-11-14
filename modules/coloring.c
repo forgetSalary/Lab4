@@ -1,8 +1,12 @@
 #include "coloring.h"
 
-void get_random_color(rgb_t color){
-    color.red = (uint8_t)rand()%255;
-    color.green = (uint8_t)rand()%255;
-    color.blue = (uint8_t)rand()%255;
-}
+int color_graph(list_graph_t* graph){
+   int K;
 
+   list_t* next_list;
+   node_t* next_vertex;
+
+   for (int i=0;i<graph->size; i++){
+       next_list = graph->lists[i];
+   }
+}

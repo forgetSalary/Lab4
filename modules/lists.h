@@ -7,7 +7,15 @@
 #include <string.h>
 
 #ifndef GRAPHMATRIX_TOOLS_H
-#include "tools.h"
+#include "extern/tools.h"
+#endif
+
+#ifndef GRAPHMATRIX_VERTEX_H
+#include "vertex.h"
+#endif
+
+#ifndef GRAPHMATRIX_CONSOLECOLORS_H
+#include "extern/consoleColors.h"
 #endif
 
 typedef struct node{

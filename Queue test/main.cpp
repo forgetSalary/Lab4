@@ -112,19 +112,21 @@ void test(){
     int order=0;
     matrix_graph_s* graph = read_graph(PATH"matrix.test");
 
-    printf("\nStd queue\n");
-    clock_t start_time, finish_time;
+    if (graph){
+        printf("\nStd queue\n");
+        clock_t start_time, finish_time;
 
-    start_time=clock();
-    std_queue_bfs(graph,0);
-    finish_time=clock();
+        start_time=clock();
+        std_queue_bfs(graph,0);
+        finish_time=clock();
 
-    double wait_time = (double)(finish_time - start_time) / CLOCKS_PER_SEC;
-    printf("Time:%f s\n",wait_time);
+        double wait_time = (double)(finish_time - start_time) / CLOCKS_PER_SEC;
+        printf("Time:%f s\n",wait_time);
 
 
-    MATRIX_FREE(graph->matrix,graph->order)
-    delete [] graph;
+        MATRIX_FREE(graph->matrix,graph->order)
+        delete [] graph;
+    }
 }
 
 int main(int argc, char* argv[]) {

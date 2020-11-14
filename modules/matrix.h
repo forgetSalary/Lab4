@@ -4,11 +4,11 @@
 #endif //GRAPHMATRIX_MATRIX_H
 
 #ifndef GRAPHMATRIX_TOOLS_H
-#include "tools.h"
+#include "extern/tools.h"
 #include "stdio.h"
 #endif
 
-#define MATRIX_LOC(name,rows,cols,type) \
+#define MATRIX_LOC(name,type,rows,cols) \
 type** name = (type**)malloc(cols*sizeof(type*)); \
 for(int i=0; i<cols; i++){\
     name[i] = (type*)malloc(rows*sizeof(type));\
@@ -26,7 +26,7 @@ void define_matrx_poiners(int** m, int size);
 
 int** matrix_create(int size);
 
-void print_matrix(int** matrix, int size);
+void print_matrix(FILE* stream, int** matrix, int size, char _break);
 
 void matrix_free(int** matrix,int size);
 

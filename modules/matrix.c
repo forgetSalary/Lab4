@@ -35,17 +35,17 @@ void define_matrx_poiners(int** m, int size){
     }
 }
 
-void print_matrix(int** matrix, int size){
+void print_matrix(FILE* stream, int** matrix, int size, char _break){
     _FOR_(i,size){
         _FOR_(j,size) {
-            printf("%d,", matrix[i][j]);
+            fprintf(stream,"%d%c", matrix[i][j],_break);
         }
-        printf("\n");
+        fprintf(stream,"\n");
     }
 }
 
 int** matrix_create(int size){
-    MATRIX_LOC(matrix,size,size,int)
+    MATRIX_LOC(matrix,int,size,size)
 
     return matrix;
 }

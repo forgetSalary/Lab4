@@ -1,31 +1,5 @@
 #include "matrixgraph.h"
 
-//void print_graph(mtrx_grph_t* graph){
-//    //header
-//    printf("|v%-9c|",' ');
-//
-//    for (int i=0; i<graph->size; i++){
-//        printf("%10d|",graph->vertexes[i]);
-//    }
-//    printf("\n|");
-//
-//    for (int i=0; i<graph->size; i++){
-//
-//        printf("%10c|",' ');
-//    }
-//    printf("%10c|\n",' ');
-//
-//    //modules
-//    for (int i=0; i<graph->size; i++){
-//        printf("|%-10d",graph->vertexes[i]);
-//        for (int j=0; j<graph->size; j++){
-//            printf("|%10d",graph->matrix[i][j]);
-//        }
-//        printf("|\n");
-//    }
-//    printf("\n");
-//}
-
 void print_graph(mtrx_grph_t* graph){
     //header
     printf("|v\t|");

@@ -3,66 +3,127 @@
 
 CMakeFiles\GraphMatrix_C.dir\main.c.obj: ..\main.c
 CMakeFiles\GraphMatrix_C.dir\main.c.obj: ..\modules\bfs.h
+CMakeFiles\GraphMatrix_C.dir\main.c.obj: ..\modules\dfs.h
+CMakeFiles\GraphMatrix_C.dir\main.c.obj: ..\modules\extern\al_string.h
+CMakeFiles\GraphMatrix_C.dir\main.c.obj: ..\modules\extern\array.h
+CMakeFiles\GraphMatrix_C.dir\main.c.obj: ..\modules\extern\consoleColors.h
+CMakeFiles\GraphMatrix_C.dir\main.c.obj: ..\modules\extern\limitedQueue.h
+CMakeFiles\GraphMatrix_C.dir\main.c.obj: ..\modules\extern\tools.h
 CMakeFiles\GraphMatrix_C.dir\main.c.obj: ..\modules\lists.h
 CMakeFiles\GraphMatrix_C.dir\main.c.obj: ..\modules\listsGraph.h
 CMakeFiles\GraphMatrix_C.dir\main.c.obj: ..\modules\matrix.h
 CMakeFiles\GraphMatrix_C.dir\main.c.obj: ..\modules\matrixgraph.h
-CMakeFiles\GraphMatrix_C.dir\main.c.obj: ..\modules\tools.h
+CMakeFiles\GraphMatrix_C.dir\main.c.obj: ..\modules\vertex.h
 CMakeFiles\GraphMatrix_C.dir\main.c.obj: ..\tests.h
 
 CMakeFiles\GraphMatrix_C.dir\modules\bfs.c.obj: ..\modules\bfs.c
 CMakeFiles\GraphMatrix_C.dir\modules\bfs.c.obj: ..\modules\bfs.h
+CMakeFiles\GraphMatrix_C.dir\modules\bfs.c.obj: ..\modules\extern\al_string.h
+CMakeFiles\GraphMatrix_C.dir\modules\bfs.c.obj: ..\modules\extern\array.h
+CMakeFiles\GraphMatrix_C.dir\modules\bfs.c.obj: ..\modules\extern\consoleColors.h
+CMakeFiles\GraphMatrix_C.dir\modules\bfs.c.obj: ..\modules\extern\limitedQueue.h
+CMakeFiles\GraphMatrix_C.dir\modules\bfs.c.obj: ..\modules\extern\tools.h
 CMakeFiles\GraphMatrix_C.dir\modules\bfs.c.obj: ..\modules\lists.h
 CMakeFiles\GraphMatrix_C.dir\modules\bfs.c.obj: ..\modules\listsGraph.h
 CMakeFiles\GraphMatrix_C.dir\modules\bfs.c.obj: ..\modules\matrix.h
 CMakeFiles\GraphMatrix_C.dir\modules\bfs.c.obj: ..\modules\matrixgraph.h
-CMakeFiles\GraphMatrix_C.dir\modules\bfs.c.obj: ..\modules\tools.h
+CMakeFiles\GraphMatrix_C.dir\modules\bfs.c.obj: ..\modules\vertex.h
 
 CMakeFiles\GraphMatrix_C.dir\modules\coloring.c.obj: ..\modules\coloring.c
 CMakeFiles\GraphMatrix_C.dir\modules\coloring.c.obj: ..\modules\coloring.h
+CMakeFiles\GraphMatrix_C.dir\modules\coloring.c.obj: ..\modules\extern\al_string.h
+CMakeFiles\GraphMatrix_C.dir\modules\coloring.c.obj: ..\modules\extern\array.h
+CMakeFiles\GraphMatrix_C.dir\modules\coloring.c.obj: ..\modules\extern\consoleColors.h
+CMakeFiles\GraphMatrix_C.dir\modules\coloring.c.obj: ..\modules\extern\limitedQueue.h
+CMakeFiles\GraphMatrix_C.dir\modules\coloring.c.obj: ..\modules\extern\tools.h
 CMakeFiles\GraphMatrix_C.dir\modules\coloring.c.obj: ..\modules\lists.h
 CMakeFiles\GraphMatrix_C.dir\modules\coloring.c.obj: ..\modules\listsGraph.h
 CMakeFiles\GraphMatrix_C.dir\modules\coloring.c.obj: ..\modules\matrix.h
 CMakeFiles\GraphMatrix_C.dir\modules\coloring.c.obj: ..\modules\matrixgraph.h
-CMakeFiles\GraphMatrix_C.dir\modules\coloring.c.obj: ..\modules\tools.h
+CMakeFiles\GraphMatrix_C.dir\modules\coloring.c.obj: ..\modules\vertex.h
 
 CMakeFiles\GraphMatrix_C.dir\modules\dfs.c.obj: ..\modules\dfs.c
 CMakeFiles\GraphMatrix_C.dir\modules\dfs.c.obj: ..\modules\dfs.h
+CMakeFiles\GraphMatrix_C.dir\modules\dfs.c.obj: ..\modules\extern\al_string.h
+CMakeFiles\GraphMatrix_C.dir\modules\dfs.c.obj: ..\modules\extern\array.h
+CMakeFiles\GraphMatrix_C.dir\modules\dfs.c.obj: ..\modules\extern\consoleColors.h
+CMakeFiles\GraphMatrix_C.dir\modules\dfs.c.obj: ..\modules\extern\limitedQueue.h
+CMakeFiles\GraphMatrix_C.dir\modules\dfs.c.obj: ..\modules\extern\tools.h
 CMakeFiles\GraphMatrix_C.dir\modules\dfs.c.obj: ..\modules\lists.h
 CMakeFiles\GraphMatrix_C.dir\modules\dfs.c.obj: ..\modules\listsGraph.h
 CMakeFiles\GraphMatrix_C.dir\modules\dfs.c.obj: ..\modules\matrix.h
 CMakeFiles\GraphMatrix_C.dir\modules\dfs.c.obj: ..\modules\matrixgraph.h
-CMakeFiles\GraphMatrix_C.dir\modules\dfs.c.obj: ..\modules\tools.h
+CMakeFiles\GraphMatrix_C.dir\modules\dfs.c.obj: ..\modules\vertex.h
 
+CMakeFiles\GraphMatrix_C.dir\modules\extern\al_string.c.obj: ..\modules\extern\al_string.c
+
+CMakeFiles\GraphMatrix_C.dir\modules\extern\array.c.obj: ..\modules\extern\array.c
+CMakeFiles\GraphMatrix_C.dir\modules\extern\array.c.obj: ..\modules\extern\array.h
+
+CMakeFiles\GraphMatrix_C.dir\modules\extern\consoleColors.c.obj: ..\modules\extern\consoleColors.c
+CMakeFiles\GraphMatrix_C.dir\modules\extern\consoleColors.c.obj: ..\modules\extern\consoleColors.h
+
+CMakeFiles\GraphMatrix_C.dir\modules\extern\limitedQueue.c.obj: ..\modules\extern\limitedQueue.c
+CMakeFiles\GraphMatrix_C.dir\modules\extern\limitedQueue.c.obj: ..\modules\extern\limitedQueue.h
+
+CMakeFiles\GraphMatrix_C.dir\modules\extern\tools.c.obj: ..\modules\extern\al_string.h
+CMakeFiles\GraphMatrix_C.dir\modules\extern\tools.c.obj: ..\modules\extern\array.h
+CMakeFiles\GraphMatrix_C.dir\modules\extern\tools.c.obj: ..\modules\extern\limitedQueue.h
+CMakeFiles\GraphMatrix_C.dir\modules\extern\tools.c.obj: ..\modules\extern\tools.c
+CMakeFiles\GraphMatrix_C.dir\modules\extern\tools.c.obj: ..\modules\extern\tools.h
+
+CMakeFiles\GraphMatrix_C.dir\modules\lists.c.obj: ..\modules\extern\al_string.h
+CMakeFiles\GraphMatrix_C.dir\modules\lists.c.obj: ..\modules\extern\array.h
+CMakeFiles\GraphMatrix_C.dir\modules\lists.c.obj: ..\modules\extern\consoleColors.h
+CMakeFiles\GraphMatrix_C.dir\modules\lists.c.obj: ..\modules\extern\limitedQueue.h
+CMakeFiles\GraphMatrix_C.dir\modules\lists.c.obj: ..\modules\extern\tools.h
 CMakeFiles\GraphMatrix_C.dir\modules\lists.c.obj: ..\modules\lists.c
 CMakeFiles\GraphMatrix_C.dir\modules\lists.c.obj: ..\modules\lists.h
-CMakeFiles\GraphMatrix_C.dir\modules\lists.c.obj: ..\modules\tools.h
+CMakeFiles\GraphMatrix_C.dir\modules\lists.c.obj: ..\modules\vertex.h
 
+CMakeFiles\GraphMatrix_C.dir\modules\listsGraph.c.obj: ..\modules\extern\al_string.h
+CMakeFiles\GraphMatrix_C.dir\modules\listsGraph.c.obj: ..\modules\extern\array.h
+CMakeFiles\GraphMatrix_C.dir\modules\listsGraph.c.obj: ..\modules\extern\consoleColors.h
+CMakeFiles\GraphMatrix_C.dir\modules\listsGraph.c.obj: ..\modules\extern\limitedQueue.h
+CMakeFiles\GraphMatrix_C.dir\modules\listsGraph.c.obj: ..\modules\extern\tools.h
 CMakeFiles\GraphMatrix_C.dir\modules\listsGraph.c.obj: ..\modules\lists.h
 CMakeFiles\GraphMatrix_C.dir\modules\listsGraph.c.obj: ..\modules\listsGraph.c
 CMakeFiles\GraphMatrix_C.dir\modules\listsGraph.c.obj: ..\modules\listsGraph.h
 CMakeFiles\GraphMatrix_C.dir\modules\listsGraph.c.obj: ..\modules\matrix.h
 CMakeFiles\GraphMatrix_C.dir\modules\listsGraph.c.obj: ..\modules\matrixgraph.h
-CMakeFiles\GraphMatrix_C.dir\modules\listsGraph.c.obj: ..\modules\tools.h
+CMakeFiles\GraphMatrix_C.dir\modules\listsGraph.c.obj: ..\modules\vertex.h
 
+CMakeFiles\GraphMatrix_C.dir\modules\matrix.c.obj: ..\modules\extern\al_string.h
+CMakeFiles\GraphMatrix_C.dir\modules\matrix.c.obj: ..\modules\extern\array.h
+CMakeFiles\GraphMatrix_C.dir\modules\matrix.c.obj: ..\modules\extern\limitedQueue.h
+CMakeFiles\GraphMatrix_C.dir\modules\matrix.c.obj: ..\modules\extern\tools.h
 CMakeFiles\GraphMatrix_C.dir\modules\matrix.c.obj: ..\modules\matrix.c
 CMakeFiles\GraphMatrix_C.dir\modules\matrix.c.obj: ..\modules\matrix.h
-CMakeFiles\GraphMatrix_C.dir\modules\matrix.c.obj: ..\modules\tools.h
 
+CMakeFiles\GraphMatrix_C.dir\modules\matrixgraph.c.obj: ..\modules\extern\al_string.h
+CMakeFiles\GraphMatrix_C.dir\modules\matrixgraph.c.obj: ..\modules\extern\array.h
+CMakeFiles\GraphMatrix_C.dir\modules\matrixgraph.c.obj: ..\modules\extern\limitedQueue.h
+CMakeFiles\GraphMatrix_C.dir\modules\matrixgraph.c.obj: ..\modules\extern\tools.h
 CMakeFiles\GraphMatrix_C.dir\modules\matrixgraph.c.obj: ..\modules\matrix.h
 CMakeFiles\GraphMatrix_C.dir\modules\matrixgraph.c.obj: ..\modules\matrixgraph.c
 CMakeFiles\GraphMatrix_C.dir\modules\matrixgraph.c.obj: ..\modules\matrixgraph.h
-CMakeFiles\GraphMatrix_C.dir\modules\matrixgraph.c.obj: ..\modules\tools.h
 
-CMakeFiles\GraphMatrix_C.dir\modules\tools.c.obj: ..\modules\tools.c
-CMakeFiles\GraphMatrix_C.dir\modules\tools.c.obj: ..\modules\tools.h
+CMakeFiles\GraphMatrix_C.dir\modules\vertex.c.obj: ..\modules\extern\consoleColors.h
+CMakeFiles\GraphMatrix_C.dir\modules\vertex.c.obj: ..\modules\vertex.c
+CMakeFiles\GraphMatrix_C.dir\modules\vertex.c.obj: ..\modules\vertex.h
 
 CMakeFiles\GraphMatrix_C.dir\tests.c.obj: ..\modules\bfs.h
+CMakeFiles\GraphMatrix_C.dir\tests.c.obj: ..\modules\dfs.h
+CMakeFiles\GraphMatrix_C.dir\tests.c.obj: ..\modules\extern\al_string.h
+CMakeFiles\GraphMatrix_C.dir\tests.c.obj: ..\modules\extern\array.h
+CMakeFiles\GraphMatrix_C.dir\tests.c.obj: ..\modules\extern\consoleColors.h
+CMakeFiles\GraphMatrix_C.dir\tests.c.obj: ..\modules\extern\limitedQueue.h
+CMakeFiles\GraphMatrix_C.dir\tests.c.obj: ..\modules\extern\tools.h
 CMakeFiles\GraphMatrix_C.dir\tests.c.obj: ..\modules\lists.h
 CMakeFiles\GraphMatrix_C.dir\tests.c.obj: ..\modules\listsGraph.h
 CMakeFiles\GraphMatrix_C.dir\tests.c.obj: ..\modules\matrix.h
 CMakeFiles\GraphMatrix_C.dir\tests.c.obj: ..\modules\matrixgraph.h
-CMakeFiles\GraphMatrix_C.dir\tests.c.obj: ..\modules\tools.h
+CMakeFiles\GraphMatrix_C.dir\tests.c.obj: ..\modules\vertex.h
 CMakeFiles\GraphMatrix_C.dir\tests.c.obj: ..\tests.c
 CMakeFiles\GraphMatrix_C.dir\tests.c.obj: ..\tests.h
 

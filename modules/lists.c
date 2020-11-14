@@ -76,60 +76,49 @@ void* list_pop(list_t* list){
     }
 }
 
+static void correct_print(char* format,void* value){
+    char* index;
+
+    index=strchr(format,'f');
+    if (index){
+        printf(format,_VALUE_OF(double,value));
+    }
+
+    index=strchr(format,'v');
+    if (index){
+        print_vertex(format,_VALUE_OF(vertex,value));
+    }
+    else{
+        printf(format,_VALUE_OF(intptr_t,value));
+    }
+}
+
 void print_list(list_t* list,const char* format){
     int list_depth=list->depth;
 
     node_t* next=list->head;
 
-    if (strlen(format)>5){
+    if (strlen(format)>8){
         printf("Undefined format\n");
         return;
     }
 
-    char frmt1[15]="|";
-    strncat(frmt1,format,strnlen(format,3));
-    strncat(frmt1,"|",2);
 
-    if (!strchr(format,'f')){
-        printf(frmt1,_VALUE_OF(intptr_t,next->value));
-    }
-    else{
-        printf(frmt1,_VALUE_OF(double,next->value));
-    }
-    next=next->next;
+    char frmt[20]="|";
+    strcat(frmt,format);
+    strcat(frmt,"|");
 
-    if (next){
+    for (int i=0; i<list_depth-1; i++){
+        correct_print(frmt,next->value);
         printf("->");
-    }
-    else{
-        printf("\n");
-        return;
-    }
-
-    char frmt2[20]="|";
-    strncat(frmt2,format,strnlen(format,3));
-    strncat(frmt2,"|->",4);
-
-    for (int i=1; i<list_depth-1; i++){
-        if (!strchr(format,'f')){
-            printf(frmt2,_VALUE_OF(intptr_t,next->value));
-        }
-        else{
-            printf(frmt2,_VALUE_OF(double ,next->value));
-        }
         next=next->next;
     }
 
-    strcpy(frmt2,"|");
-    strncat(frmt2,format,strnlen(format,3));
-    strncat(frmt2,"|\n",3);
+    strcpy(frmt,"|");
+    strcat(frmt,format);
+    strcat(frmt,"|\n");
 
-    if (!strchr(format,'f')){
-        printf(frmt2,_VALUE_OF(intptr_t,next->value));
-    }
-    else{
-        printf(frmt2,_VALUE_OF(double ,next->value));
-    }
+    correct_print(frmt,next->value);
 
 }
 

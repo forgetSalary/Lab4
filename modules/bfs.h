@@ -15,4 +15,4 @@ void bfs_matrix(mtrx_grph_t* graph,int vertex_index,numbers_t* dist);
 
 void bfs_lists(list_graph_t* graph,int vertex_index,numbers_t* dist);
 
-void bfs_log(int* vertexes, int src_vertex, numbers_t* dist);
+void dist_log(int* vertexes, int src_vertex, numbers_t* dist);

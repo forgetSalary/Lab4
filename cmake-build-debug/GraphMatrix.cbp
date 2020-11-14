@@ -18,8 +18,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="GraphMatrix_C">
-				<Option output="D:/XAMPP/cgi-bin/scripts/GraphMatrix_C.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/XAMPP/cgi-bin/scripts"/>
+				<Option output="D:/CPrctc/C Graphs/cmake-build-debug/GraphMatrix_C.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CPrctc/C graphs/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -41,8 +41,8 @@
 				</MakeCommands>
 			</Target>
 			<Target title="GraphMatrix_C/fast">
-				<Option output="D:/XAMPP/cgi-bin/scripts/GraphMatrix_C.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/XAMPP/cgi-bin/scripts"/>
+				<Option output="D:/CPrctc/C Graphs/cmake-build-debug/GraphMatrix_C.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CPrctc/C graphs/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
@@ -105,6 +105,36 @@
 		<Unit filename="D:/CPrctc/C Graphs/modules/dfs.h">
 			<Option target="GraphMatrix_C"/>
 		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/extern/al_string.c">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/extern/al_string.h">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/extern/array.c">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/extern/array.h">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/extern/consoleColors.c">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/extern/consoleColors.h">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/extern/limitedQueue.c">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/extern/limitedQueue.h">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/extern/tools.c">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
+		<Unit filename="D:/CPrctc/C Graphs/modules/extern/tools.h">
+			<Option target="GraphMatrix_C"/>
+		</Unit>
 		<Unit filename="D:/CPrctc/C Graphs/modules/lists.c">
 			<Option target="GraphMatrix_C"/>
 		</Unit>
@@ -129,10 +159,10 @@
 		<Unit filename="D:/CPrctc/C Graphs/modules/matrixgraph.h">
 			<Option target="GraphMatrix_C"/>
 		</Unit>
-		<Unit filename="D:/CPrctc/C Graphs/modules/tools.c">
+		<Unit filename="D:/CPrctc/C Graphs/modules/vertex.c">
 			<Option target="GraphMatrix_C"/>
 		</Unit>
-		<Unit filename="D:/CPrctc/C Graphs/modules/tools.h">
+		<Unit filename="D:/CPrctc/C Graphs/modules/vertex.h">
 			<Option target="GraphMatrix_C"/>
 		</Unit>
 		<Unit filename="D:/CPrctc/C Graphs/tests.c">

@@ -1,21 +1,22 @@
 #include "listsGraph.h"
 
-int is_adjacent(list_graph_t* graph, int v, int u){
-    int adjacency;
+bool is_adjacent(list_graph_t* graph, int v_index, int u_index){
+    bool adjacency;
 
     for (int i=0; i<graph->size; i++){
-
+        
     }
 
     return adjacency;
 };
 
+
 list_graph_t* list_graph_create(int size){
     list_graph_t* graph = malloc(sizeof(list_graph_t));
 
-    graph->lists = malloc(sizeof(list_t*)*size);
-    graph->vertexes = malloc(sizeof(int)*size);
-    graph->colors = malloc(sizeof(rgb_t));
+    graph->lists = new_block(list_t*,size);
+    graph->vertexes = new_block(vertex,size);
+
     graph->size = size;
 
     return graph;
@@ -28,10 +29,13 @@ list_graph_t* matrix_to_list(mtrx_grph_t* matrix_graph){
 
     list_t* nextList;
 
+    //init head of lists and fill array of vertexes
     for (int i=0; i<size; i++){
-        list_graph->vertexes[i] = matrix_graph->vertexes[i];
+        list_graph->vertexes[i].name = matrix_graph->vertexes[i];
+        list_graph->vertexes[i].color = DEFAULT_CONSOLE_COLOR;
+
         list_graph->lists[i] = list_create();
-        append(list_graph->lists[i],&(matrix_graph->vertexes[i]));
+        append(list_graph->lists[i],&(list_graph->vertexes[i]));
     }
 
     for (int i=0; i<size; i++){
@@ -39,7 +43,7 @@ list_graph_t* matrix_to_list(mtrx_grph_t* matrix_graph){
 
         for (int j=0; j<size; j++){
             if (matrix_graph->matrix[i][j]){
-                append(nextList,&(matrix_graph->vertexes[j]));
+                append(nextList,&(list_graph->vertexes[j]));
             }
         }
 
@@ -50,7 +54,7 @@ list_graph_t* matrix_to_list(mtrx_grph_t* matrix_graph){
 
 void print_list_graph(list_graph_t* graph){
     for (int i=0; i<graph->size; i++) {
-        print_list(graph->lists[i],"%d");
+        print_list(graph->lists[i],"%v");
     }
     printf("\n");
 }
@@ -63,8 +67,3 @@ void list_graph_free(list_graph_t* graph){
     free(graph);
 }
 
-//methods
-
-void bfs(int vertex_index,numbers_t* dist){
-
-}

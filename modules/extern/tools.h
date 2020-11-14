@@ -4,6 +4,7 @@
 #endif //GRAPHMATRIX_TOOLS_H
 
 #include <stdbool.h>
+#include "limitedQueue.h"
 #include "al_string.h"
 #include "array.h"
 

@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-D:/CPrctc/C Graphs/main.c
-tests.h
-D:/CPrctc/C Graphs/tests.h
-
 D:/CPrctc/C Graphs/modules/bfs.c
 bfs.h
 D:/CPrctc/C Graphs/modules/bfs.h
@@ -20,13 +16,61 @@ D:/CPrctc/C Graphs/modules/listsGraph.h
 tools.h
 D:/CPrctc/C Graphs/modules/tools.h
 
+D:/CPrctc/C Graphs/modules/dfs.h
+listsGraph.h
+D:/CPrctc/C Graphs/modules/listsGraph.h
+tools.h
+D:/CPrctc/C Graphs/modules/tools.h
+
+D:/CPrctc/C Graphs/modules/extern/al_string.h
+malloc.h
+-
+stdarg.h
+D:/CPrctc/C Graphs/modules/extern/stdarg.h
+
+D:/CPrctc/C Graphs/modules/extern/array.h
+stdlib.h
+-
+stdint.h
+-
+stdio.h
+-
+assert.h
+-
+
+D:/CPrctc/C Graphs/modules/extern/consoleColors.h
+windows.h
+-
+stdio.h
+-
+
+D:/CPrctc/C Graphs/modules/extern/limitedQueue.h
+malloc.h
+D:/CPrctc/C Graphs/modules/extern/malloc.h
+string.h
+D:/CPrctc/C Graphs/modules/extern/string.h
+
+D:/CPrctc/C Graphs/modules/extern/tools.h
+stdbool.h
+-
+limitedQueue.h
+D:/CPrctc/C Graphs/modules/extern/limitedQueue.h
+al_string.h
+D:/CPrctc/C Graphs/modules/extern/al_string.h
+array.h
+D:/CPrctc/C Graphs/modules/extern/array.h
+
 D:/CPrctc/C Graphs/modules/lists.h
 stdio.h
 -
 string.h
 -
-tools.h
-D:/CPrctc/C Graphs/modules/tools.h
+extern/tools.h
+D:/CPrctc/C Graphs/modules/extern/tools.h
+vertex.h
+D:/CPrctc/C Graphs/modules/vertex.h
+extern/consoleColors.h
+D:/CPrctc/C Graphs/modules/extern/consoleColors.h
 
 D:/CPrctc/C Graphs/modules/listsGraph.h
 lists.h
@@ -35,8 +79,8 @@ matrixgraph.h
 D:/CPrctc/C Graphs/modules/matrixgraph.h
 
 D:/CPrctc/C Graphs/modules/matrix.h
-tools.h
-D:/CPrctc/C Graphs/modules/tools.h
+extern/tools.h
+D:/CPrctc/C Graphs/modules/extern/tools.h
 stdio.h
 D:/CPrctc/C Graphs/modules/stdio.h
 
@@ -48,21 +92,21 @@ string.h
 matrix.h
 D:/CPrctc/C Graphs/modules/matrix.h
 
-D:/CPrctc/C Graphs/modules/tools.h
-stdlib.h
--
-stdint.h
--
-stdio.h
--
-stdbool.h
--
-assert.h
--
+D:/CPrctc/C Graphs/modules/vertex.h
+stdarg.h
+D:/CPrctc/C Graphs/modules/stdarg.h
+extern/consoleColors.h
+D:/CPrctc/C Graphs/modules/extern/consoleColors.h
+
+D:/CPrctc/C Graphs/tests.c
+tests.h
+D:/CPrctc/C Graphs/tests.h
 
 D:/CPrctc/C Graphs/tests.h
 modules/bfs.h
 D:/CPrctc/C Graphs/modules/bfs.h
+modules/dfs.h
+D:/CPrctc/C Graphs/modules/dfs.h
 stdio.h
 D:/CPrctc/C Graphs/stdio.h
 time.h
